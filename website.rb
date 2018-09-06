@@ -1,3 +1,9 @@
+require 'sinatra/base'
+require 'sprockets'
+require 'sass'
+require 'slim'
+require 'shotgun'
+
 class MyApp < Sinatra::Base
   # initialize new sprockets environment
   set :environment, Sprockets::Environment.new
