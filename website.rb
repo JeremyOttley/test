@@ -4,7 +4,7 @@ require 'sass'
 require 'slim'
 require 'shotgun'
 
-class MyApp < Sinatra::Base
+class Website < Sinatra::Base
   # initialize new sprockets environment
   set :environment, Sprockets::Environment.new
 
