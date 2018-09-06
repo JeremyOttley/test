@@ -1,5 +1,1 @@
-require 'sinatra/base'
-require 'sprockets'
-require 'sass'
-require 'slim'
-require 'shotgun'
+
