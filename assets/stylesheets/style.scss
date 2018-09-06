@@ -1,0 +1,57 @@
+
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+text-rendering: optimizeLegibility;
+font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual;
+color: rgba(0, 0, 0, 0.8);
+text-shadow: 0 1px rgba(255, 255, 255, 0.8), 0 0 0.05em rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-size: 1.25rem;
+  line-height: 2rem;
+margin: 10vw 14vw;
+}
+
+h1, h2, h3, h4, h5 {
+font-family: 'Arimo', sans-serif;
+}
+
+h1 h2 h3 h4 {
+ line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h3 h4 {
+font-variant-caps: small-caps;
+  -webkit-font-variant-ligatures: common-ligatures;
+          font-variant-ligatures: common-ligatures;
+  letter-spacing: 0.025em;
+  text-transform: inherit;
+}
+
+p ,ul, ol, pre, table, blockquote {
+font-family: 'Open Sans', sans-serif;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
