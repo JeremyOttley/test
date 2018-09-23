@@ -1,5 +1,5 @@
 #require File.expand_path('my_app', File.dirname(__FILE__))
-require './website.rb'
+require './app.rb'
 
-#run Website
-run website.rb
+#run App
+run app.rb
