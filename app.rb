@@ -5,5 +5,5 @@ require 'slim'
 require 'shotgun'
 
   get "/" do
-    erb :index
+    slim :index
   end
